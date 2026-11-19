@@ -1,0 +1,61 @@
+---
+title: "Project 2: Data Management"
+author: "Rafael Wenslaff"
+date: 11/18/26
+format: pdf
+execute:
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: load-packages
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+highschool_attainment <- read_xlsx(
+  here::here("data/hst_attain02.xlsx"),
+  range = "A7:D75",
+  col_names = c("year", "total", "male", "female")
+)
+
+bachelors_attainment <- read_xlsx(
+  here::here("data/hst_attain02.xlsx"),
+  range = "A77:D145",
+  col_names = c("year", "total", "male", "female")
+)
+
+earnings <- read_xlsx(
+  here::here("data/hst_attain03.xlsx"),
+  range = "A7:P56",
+  col_names = c(
+    "year", 
+    "total_number_earnings", "total_mean", "total_std_error", 
+    "none_number_earnings", "none_mean", "none_std_error", 
+    "hs_number_earnings", "hs_mean", "hs_std_error",
+    "associate_number_earnings", "associate_mean", "associate_std_error",
+    "bachelor_number_earnings", "bachelor_mean", "bachelor_std_error")
+) %>%
+  select(1:4,14:16)
+
+enrollment_cost <- read_xlsx(
+  here::here("data/tabn330.10.xlsx"),
+  range = "A7:P56",
+  col_names = c(
+    "academic year", 
+    "total_cost_all", "total_cost_4_year", "total_cost_2_year",
+    "tuition_cost_all", "tuition_cost_4_year", "tuition_cost_2_year",
+    "dorm_cost_all", "dorm_cost_4_year", "dorm_cost_2_year",
+    "board_cost_all", "board_cost_4_year", "board_cost_2_year",
+    "total_cost_all_constant", "total_cost_4_year_constant", "total_cost_2_year_constant")
+) %>%
+  select(1:2,14)
+
+glimpse(highschool_attainment)
+glimpse(bachelors_attainment)
+glimpse(earnings)
+glimpse(enrollment_cost)
+
+```
