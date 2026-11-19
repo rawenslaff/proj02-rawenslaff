@@ -1,6 +1,6 @@
 # Project 02 Proposal: <your project title>
 
-**Team members:** <name(s)>
+**Team members:** Rafael Wenslaff
 
 See the [Project 02 instructions](https://data385.github.io/project/proj02_wholegame.html) for what goes in each section. Bullet points are great. Put any images in an `img/` folder.
 
