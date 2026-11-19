@@ -2,8 +2,6 @@
 
 **Team members:** Rafael Wenslaff
 
-See the [Project 02 instructions](https://data385.github.io/project/proj02_wholegame.html) for what goes in each section. Bullet points are great. Put any images in an `img/` folder.
-
 ## 1. Problem statement
 
 College enrollment and degree attainment in the United States have increased over the past several decades. However, with this increase also comes an increase in the cost of said enrollment. This raises questions about whether a college degree provides a clear economic benefit or if the financial burden of attending college has made it more of a gamble. Through this project, I plan to analyze how the economic value of a bachelor's degree has changed over time by considering degree attainment along with major-related employment, inflation, and cost of enrollment overtime and comparing these factors against high-school graduates. My expectations are that the financial viability of obtaining a college degree will still be higher than that of solely obtaining a high-school diploma, but it will be proportionally less than it had once been following an increase in enrollment costs.
