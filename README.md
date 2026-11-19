@@ -30,13 +30,19 @@ I intended to collect data on cost of enrollment over time by downloading the da
 
 - **Citation:** U.S. Census Bureau. (2026). *Current Population Survey historical time series tables: Table A-2, Percent of People 25 Years and Over Who Have Completed High School or College, by Race, Hispanic Origin and Sex, 1940–2025; and Table A-3, Mean Earnings of Workers 18 Years and Over, by Educational Attainment, Race, Hispanic Origin, and Sex, 1975–2024.* U.S. Department of Commerce. https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html
   
-- **Documentation:** https://www.census.gov/topics/education/educational-attainment/surveys-programs.html
+- **Documentation:** https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf
   
 - **Collection Method:** Data was obtained through the Current Population Survey (CPS), a monthly survey sponsored by the Bureau of Labor Statistics and conduced by the U.S. Census Bureau involving telephone and in-person interviews.
 
 ### b. Variables of interest
 
-_If you do not have the data yet, list the variables you plan to collect and the exact question text. Include 1) the variable name, 2) data type 3) description. Use bullet points._
+- **year (numeric):** The calendar year associated with the data
+- **enrollment_cost (numeric):** Average annual cost of attending college
+- **enrollment_cost_constant (numeric):** Average annual cost of attending college, adjusted for inflation
+- **highschool_grads (numeric):** Percentage of U.S. population aged 25+ who have completed 4 or more years of high school
+- **bachelors (numeric):** Percentage of U.S. population aged 25+ who have completed 4 or more years of college
+- **earnings_highschool (numeric):** Mean annual earnings of high school graduates aged 18+
+- **earnings_bachelors (numeric):** Mean annual earnings of college graduates aged 18+
 
 ## 4. Data example
 
@@ -46,15 +52,12 @@ _Scraping: a URL and an annotated screenshot. Downloading: a link to your render
 
 _The techniques and functions you plan to use to import, wrangle, visualize, and explore the data, and why each is needed._
 
-
 ## 6. Modeling
 
 _The models you plan to use, your response and predictor variables, and why the models fit your research question._
 
-
 ## 7. Communicate
 
-_How you plan to present your results (website, poster, or short slide presentation)._
 I plan on presenting my results through a Quarto website.
 
 ## 8. LLM disclaimer
