@@ -14,30 +14,30 @@ To what extent is the rising cost of attending college in the United States (pre
 
 ## 3. Data acquisition
 
-I intended to collect data on cost of enrollment over time by downloading the data directly from the [NCES website](https://nces.ed.gov/programs/digest/d24/tables/dt24_330.10.asp). I intend to collect data on the percentage of people who have completed a high school or college degree as well as the mean earnings of workers by education attainment by downloading the data directly from the United States [Census website](https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html).
+I intended to collect data on cost of enrollment over time by downloading the data directly from the [NCES website](https://nces.ed.gov/programs/digest/d24/tables/dt24_330.10.asp). I intend to collect data on the percentage of people who have completed a high school or college degree as well as the mean earnings of workers by education attainment by downloading the data directly from the [United States Census website](https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html).
 
 ### a. Confirm viability
 
 [NCES Data on Cost of College Enrollment from 1963-2024](https://nces.ed.gov/programs/digest/d24/tables/dt24_330.10.asp)
 
-- Citation:
+- **Citation:**
     National Center for Education Statistics. (2024). *Digest of Education Statistics, 2024, Table 330.10: Average undergraduate tuition and fees and room and board rates charged for full-time students in degree-granting postsecondary institutions, by level and control of institution: Selected academic years, 1963–64 through 2023–24.* U.S. Department of Education. https://nces.ed.gov/programs/digest/d24/tables/dt24_330.10.asp
   
-- Documentation:
+- **Documentation:**
     https://nces.ed.gov/ipeds/survey-components/ipeds-survey-methodology
   
-- Collection Method: 
+- **Collection Method:**
     Data was obtained through the Higher Education General Information Survey (HEGIS), as well as the Integrated Postsecondary Education Data System (IPEDS).
 
 [United States Census Data on high school/college completion and earnings by education attainment](https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html)
 
-- Citation:
+- **Citation:**
     U.S. Census Bureau. (2026). *Current Population Survey historical time series tables: Table A-2, Percent of People 25 Years and Over Who Have Completed High School or College, by Race, Hispanic Origin and Sex, 1940–2025; and Table A-3, Mean Earnings of Workers 18 Years and Over, by Educational Attainment, Race, Hispanic Origin, and Sex, 1975–2024.* U.S. Department of Commerce. https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html
   
-- Documentation:
+- **Documentation:**
     https://www.census.gov/topics/education/educational-attainment/surveys-programs.html
   
-- Collection Method:
+- **Collection Method:**
     Data was obtained through the Current Population Survey (CPS), a monthly survey sponsored by the Bureau of Labor Statistics and conduced by the U.S. Census Bureau involving telephone and in-person interviews.
 
 ### b. Variables of interest
