@@ -1,4 +1,4 @@
-# Project 02 Proposal: <your project title>
+# Project 02 Proposal: The Value of a Bachelor's Degree
 
 **Team members:** Rafael Wenslaff
 
@@ -6,33 +6,47 @@ See the [Project 02 instructions](https://data385.github.io/project/proj02_whole
 
 ## 1. Problem statement
 
-_Who has the problem, what decision or need it involves, why it matters, and what you expect to find._
-
+College enrollment and degree attainment in the United States have increased over the past several decades. However, with this increase also comes an increase in the cost of said enrollment. This raises questions about whether a college degree provides a clear economic benefit or if the financial burden of attending college has made it more of a gamble. Through this project, I plan to analyze how the economic value of a bachelor's degree has changed over time by considering degree attainment along with major-related employment, inflation, and cost of enrollment overtime and comparing these factors against high-school graduates. My expectations are that the financial viability of obtaining a college degree will still be higher than that of solely obtaining a high-school diploma, but it will be proportionally less than it had once been following an increase in enrollment costs.
 
 ## 2. Research question
 
-_A clear association between a response and at least one predictor variable._
-
+To what extent is the rising cost of attending college in the United States (predictor) associated with the financial advantage of obtaining a bachelor's degree (response) compared to high school graduates?
 
 ## 3. Data acquisition
 
-_In 1-2 sentences, describe the data you intend to collect and how you will get it._
-
+I intended to collect data on cost of enrollment over time by downloading the data directly from the [NCES website](https://nces.ed.gov/programs/digest/d24/tables/dt24_330.10.asp). I intend to collect data on the percentage of people who have completed a high school or college degree as well as the mean earnings of workers by education attainment by downloading the data directly from the United States [Census website](https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html).
 
 ### a. Confirm viability
 
-_Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
+[NCES Data on Cost of College Enrollment from 1963-2024](https://nces.ed.gov/programs/digest/d24/tables/dt24_330.10.asp)
 
+- Citation:
+    National Center for Education Statistics. (2024). *Digest of Education Statistics, 2024, Table 330.10: Average undergraduate tuition and fees and room and board rates charged for full-time students in degree-granting postsecondary institutions, by level and control of institution: Selected academic years, 1963–64 through 2023–24.* U.S. Department of Education. https://nces.ed.gov/programs/digest/d24/tables/dt24_330.10.asp
+  
+- Documentation:
+    https://nces.ed.gov/ipeds/survey-components/ipeds-survey-methodology
+  
+- Collection Method: 
+    Data was obtained through the Higher Education General Information Survey (HEGIS), as well as the Integrated Postsecondary Education Data System (IPEDS).
+
+[United States Census Data on high school/college completion and earnings by education attainment](https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html)
+
+- Citation:
+    U.S. Census Bureau. (2026). *Current Population Survey historical time series tables: Table A-2, Percent of People 25 Years and Over Who Have Completed High School or College, by Race, Hispanic Origin and Sex, 1940–2025; and Table A-3, Mean Earnings of Workers 18 Years and Over, by Educational Attainment, Race, Hispanic Origin, and Sex, 1975–2024.* U.S. Department of Commerce. https://www.census.gov/data/tables/time-series/demo/educational-attainment/cps-historical-time-series.html
+  
+- Documentation:
+    https://www.census.gov/topics/education/educational-attainment/surveys-programs.html
+  
+- Collection Method:
+    Data was obtained through the Current Population Survey (CPS), a monthly survey sponsored by the Bureau of Labor Statistics and conduced by the U.S. Census Bureau involving telephone and in-person interviews.
 
 ### b. Variables of interest
 
 _If you do not have the data yet, list the variables you plan to collect and the exact question text. Include 1) the variable name, 2) data type 3) description. Use bullet points._
 
-
 ## 4. Data example
 
 _Scraping: a URL and an annotated screenshot. Downloading: a link to your rendered `data_management.pdf` with `glimpse()`. Collecting: a screenshot of one example row._
-
 
 ## 5. EDA
 
@@ -47,9 +61,9 @@ _The models you plan to use, your response and predictor variables, and why the 
 ## 7. Communicate
 
 _How you plan to present your results (website, poster, or short slide presentation)._
-
+I plan on presenting my results through a Quarto website.
 
 ## 8. LLM disclaimer
 
-_Whether and how you will use AI tools: the specific tool, its use, and your data protection methods. If you won't use any, say so._
+I do not plan on using LLMs.
 
