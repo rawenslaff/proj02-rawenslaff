@@ -46,7 +46,7 @@ I intended to collect data on cost of enrollment over time by downloading the da
 
 ## 4. Data example
 
-_Scraping: a URL and an annotated screenshot. Downloading: a link to your rendered `data_management.pdf` with `glimpse()`. Collecting: a screenshot of one example row._
+[Data Example with glimpse()](data_management.pdf)
 
 ## 5. EDA
 
