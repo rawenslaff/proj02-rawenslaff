@@ -36,13 +36,13 @@ I intended to collect data on cost of enrollment over time by downloading the da
 
 ### b. Variables of interest
 
-- **year (numeric):** The calendar year associated with the data
-- **enrollment_cost (numeric):** Average annual cost of attending college
-- **enrollment_cost_constant (numeric):** Average annual cost of attending college, adjusted for inflation
-- **highschool_grads (numeric):** Percentage of U.S. population aged 25+ who have completed 4 or more years of high school
-- **bachelors (numeric):** Percentage of U.S. population aged 25+ who have completed 4 or more years of college
-- **earnings_highschool (numeric):** Mean annual earnings of high school graduates aged 18+
-- **earnings_bachelors (numeric):** Mean annual earnings of college graduates aged 18+
+- **year (numeric):** The calendar year associated with the data.
+- **enrollment_cost (numeric):** Average annual cost of attending college.
+- **enrollment_cost_constant (numeric):** Average annual cost of attending college, adjusted for inflation.
+- **highschool_grads (numeric):** Percentage of U.S. population aged 25+ who have completed 4 or more years of high school.
+- **bachelors (numeric):** Percentage of U.S. population aged 25+ who have completed 4 or more years of college.
+- **earnings_highschool (numeric):** Mean annual earnings of high school graduates aged 18+.
+- **earnings_bachelors (numeric):** Mean annual earnings of college graduates aged 18+.
 
 ## 4. Data example
 
@@ -50,19 +50,18 @@ I intended to collect data on cost of enrollment over time by downloading the da
 
 ## 5. EDA
 
-- Import: using `read_xlsx()` to import data into R
-- Cleaning and Wrangling: using `select()`, `rename()`, and `mutate()` to keep relevant columns, change column names, and convert values into appropriate data types
-- Joining: using `left_join()` to combine datasets via year (will have to account for year vs. academic year data when cleaning)
-- Calculating Variables: using `mutate()` to calculate the percentage earnings of those with bachelor's degrees vs. high school graduates
-- Summarizing Data: using `group_by()` and `summarize()` to analyze changes in enrollment cost, degree attainment, and earnings over time
-- Visualizing Data: using `ggplot()` to create graphs illustrating the change in financial advantage of having a bachelor's degree over time and as enrollment costs change
+- **Import:** using `read_xlsx()` to import data into R.
+- **Cleaning and Wrangling:** using `select()`, `rename()`, and `mutate()` to keep relevant columns, change column names, and convert values into appropriate data types.
+- **Joining:** using `left_join()` to combine datasets via year (will have to account for year vs. academic year data when cleaning).
+- **Calculating Variables:** using `mutate()` to calculate the percentage earnings of those with bachelor's degrees vs. high school graduates.
+- **Summarizing Data:** using `group_by()` and `summarize()` to analyze changes in enrollment cost, degree attainment, and earnings over time.
+- **Visualizing Data:** using `ggplot()` to create graphs illustrating the change in financial advantage of having a bachelor's degree over time and as enrollment costs change.
 
 ## 6. Modeling
 
-_The models you plan to use, your response and predictor variables, and why the models fit your research question._
-- My response variable (y) will be a calculated earnings difference for people with a bachelor's degrees compared to people who only graduated high school
-- My predictor variable (x) will be enrollment costs
-- I plan to use a linear regression model to analyze how enrollment costs compare to the financial advantage of obtaining a bachelor's degree and determine whether or not there is a relationship between a higher cost of enrollment and greater financial viability for those with a Bachelor's degree.
+- My response variable (y) will be a calculated earnings difference for people with a bachelor's degrees compared to people who only graduated high school.
+- My predictor variable (x) will be enrollment costs.
+- I plan to use a linear regression model to analyze how enrollment costs compare to the financial advantage of obtaining a bachelor's degree and determine whether or not there is a relationship between a higher cost of enrollment and greater financial viability for those with a bachelor's degree, or if enrollment prices are disproportionately high for the benefits provided by having a bachelor's degree. 
 
 ## 7. Communicate
 
